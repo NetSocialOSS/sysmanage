@@ -1,0 +1,8 @@
+cmd: /home/netsocial/Harbinger/netsocial
+dir: /home/netsocial/Harbinger
+target: core
+description: Harbinger Staging
+after: ibl-maint
+broken: false
+user: netsocial
+group: netsocial
