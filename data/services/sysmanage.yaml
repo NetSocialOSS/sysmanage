@@ -1,0 +1,8 @@
+cmd: /root/sysmanage/sysmanage
+dir: /root/sysmanage
+target: core
+description: Sysmanage service management
+after: void
+broken: false
+user: root
+group: root

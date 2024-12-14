@@ -1,0 +1,1 @@
+let e=[];const n=async()=>{if(e.length)return e;let t=await fetch("/api/frontend/getRegisteredLinks",{method:"POST"});if(!t.ok)throw new Error("Failed to fetch links");return e=await t.json(),e};export{n as g};

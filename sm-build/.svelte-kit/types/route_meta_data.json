@@ -1,0 +1,33 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/404": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/actions": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/nginx": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/nginx/domain": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/nginx/new": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/systemd": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/systemd/meta": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/systemd/new": [
+		"src/routes/+layout.js"
+	],
+	"/plugins/systemd/service": [
+		"src/routes/+layout.js"
+	]
+}

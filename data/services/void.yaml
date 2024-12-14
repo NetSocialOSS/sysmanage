@@ -1,0 +1,8 @@
+cmd: /root/void/void
+dir: /root/void
+target: core
+description: IBL Maintenance Service
+after: network
+broken: false
+user: root
+group: root

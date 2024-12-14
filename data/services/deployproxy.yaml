@@ -1,0 +1,8 @@
+cmd: /root/deployproxy/deployproxy
+dir: /root/deployproxy
+target: core
+description: Deployproxy instance
+after: void
+broken: false
+user: root
+group: root

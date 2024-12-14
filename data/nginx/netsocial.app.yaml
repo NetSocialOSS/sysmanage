@@ -1,0 +1,11 @@
+servers:
+    - id: sysmanage
+      names:
+        - sysmanage
+      comment: sysmanage
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1234/
+          opts: []
+real_name: ""

@@ -1,0 +1,25 @@
+# Enabled plugins
+plugins:
+  authdp:
+    dp_secret: 
+    url: https://example.com
+    allowed_users:
+      - 728871946456137770
+      - 510065483693817867
+      - 1132812361959481354
+  nginx:
+    nginx_definitions: data/nginx
+    cf_api_token:  
+  persist:
+    password: 
+  systemd:
+    service_definitions: data/services
+    service_out: /etc/systemd/system
+    srv_mod_bypass:
+      - sysmanage
+      - deployproxy
+      - ibl-maint
+  frontend:
+  actions:
+  foo:
+  logger:

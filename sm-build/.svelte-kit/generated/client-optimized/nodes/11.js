@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/plugins/systemd/service/+page.svelte";
