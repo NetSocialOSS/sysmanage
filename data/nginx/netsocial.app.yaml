@@ -11,6 +11,7 @@ servers:
     - id: staging
       names:
         - staging
+        - api
       comment: P
       broken: false
       locations:
