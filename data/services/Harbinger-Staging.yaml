@@ -1,6 +1,6 @@
 cmd: /home/netsocial/Harbinger/netsocial
 dir: /home/netsocial/Harbinger
-target: core
+target: netsocial
 description: Harbinger Staging
 after: ibl-maint
 broken: false
