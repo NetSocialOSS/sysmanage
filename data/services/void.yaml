@@ -1,0 +1,8 @@
+cmd: /root/void/void
+dir: /root/void
+target: core
+description: Void
+after: ibl-maint
+broken: false
+user: ""
+group: ""
