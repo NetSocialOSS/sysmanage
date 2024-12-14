@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/netsocial/Middleverk
+target: netsocial
+description: Discord bot
+after: ibl-maint
+broken: false
+user: netsocial
+group: netsocial
