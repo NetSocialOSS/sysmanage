@@ -1,3 +1,5 @@
 targets:
     - name: core
       description: Core services
+    - name: netsocial
+      description: NetSocial Services
