@@ -1,5 +1,5 @@
-cmd: /home/netsocial/Harbinger/netsocial
-dir: /home/netsocial/Harbinger
+cmd: /home/netsocial/Harbinger-Staging/netsocial
+dir: /home/netsocial/Harbinger-Staging
 target: netsocial
 description: Harbinger Staging
 after: ibl-maint
