@@ -17,4 +17,13 @@ servers:
         - path: /
           proxy: http://localhost:7324/
           opts: []
+    - id: api
+      names:
+        - api
+      comment: 'Prod API '
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:7325/
+          opts: []
 real_name: ""
