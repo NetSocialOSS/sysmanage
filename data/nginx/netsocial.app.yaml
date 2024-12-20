@@ -28,7 +28,7 @@ servers:
           opts: []
     - id: website
       names:
-        - '@'
+        - '@root'
       comment: website
       broken: false
       locations:
