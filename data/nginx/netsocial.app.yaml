@@ -8,10 +8,10 @@ servers:
         - path: /
           proxy: http://localhost:1234/
           opts: []
-    - id: staging
+    - id: staging-api
       names:
-        - staging
-      comment: P
+        - staging-api
+      comment: Staging API
       broken: false
       locations:
         - path: /
