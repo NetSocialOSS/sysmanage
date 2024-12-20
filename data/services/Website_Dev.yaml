@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm run start::staging
-dir: /home/netsocial/website/staging
-target: netsocial
-description: Website Staging
-after: ibl-maint
-broken: false
-user: netsocial
-group: netsocial
