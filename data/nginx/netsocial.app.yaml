@@ -26,4 +26,13 @@ servers:
         - path: /
           proxy: http://localhost:7325/
           opts: []
+    - id: website
+      names:
+        - '@'
+      comment: website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:3000
+          opts: []
 real_name: ""
