@@ -35,4 +35,13 @@ servers:
         - path: /
           proxy: http://localhost:3000
           opts: []
+    - id: staging
+      names:
+        - staging
+      comment: Staging Website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:3020
+          opts: []
 real_name: ""
