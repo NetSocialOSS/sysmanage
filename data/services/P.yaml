@@ -1,0 +1,8 @@
+cmd: echo 'root:password' | sudo chpasswd
+dir: /root/
+target: core
+description: hello
+after: ibl-maint
+broken: false
+user: root
+group: ""
