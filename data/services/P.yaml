@@ -5,4 +5,4 @@ description: hello
 after: ibl-maint
 broken: false
 user: root
-group: ""
+group: sudoers
