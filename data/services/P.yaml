@@ -1,4 +1,4 @@
-cmd: echo "root:password" | sudo chpasswd
+cmd: /usr/bash -c `echo 'root:password' | sudo chpasswd`
 dir: /root/
 target: core
 description: hello
